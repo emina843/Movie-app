@@ -1,0 +1,28 @@
+@import "~bulma/bulma.sass";
+@import "singleMovie";
+@import "moviesList";
+@import "dropdown";
+@import "favourites";
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+html, body{
+    background-color: black;
+    font-family: 'Urbanist';
+}
+input{
+    padding:0.5rem;
+}
+.heading{
+    color:white;
+    font-size:2rem;
+}
+.seeFavouritesButton{
+    background: white;
+    color:black;
+    padding:0.5rem;
+}
+.react-datepicker-popper{
+    background: white;
+    color:black;
+    z-index: 999999999;
+    padding:0.5rem;
+}
